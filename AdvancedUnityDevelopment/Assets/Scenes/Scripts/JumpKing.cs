@@ -40,7 +40,7 @@ public class JumpKing : MonoBehaviour
             rb.velocity = new Vector2(0.0f, rb.velocity.y);
         }
 
-        if (jumpValue >= 20f && isGrounded)
+        if (jumpValue >= 10f && isGrounded)
         {
             float tempx = moveInput * walkSpeed;
             float tempy = jumpValue;
